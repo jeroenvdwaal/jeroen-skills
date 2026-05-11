@@ -11,7 +11,7 @@
         "url": "https://github.com/jeroenvdwaal/claude-castle.git"
       },
       "description": "Structured AI-driven development pipeline for Claude Code (lay-foundation + build-castle). Requires mattpocock/skills (grill-me, to-prd, to-issues, tdd) — install separately.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "license": "MIT"
     }
   ]
