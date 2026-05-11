@@ -66,6 +66,19 @@ cp -r claude-castle/skills/build-castle  ~/.claude/skills/
 
 Skills are available unnamespaced: `/lay-foundation`, `/build-castle`. The two install modes coexist without conflict (the namespaced ones win on collision).
 
+### Updating
+
+For plugin installs:
+
+```
+/plugin marketplace update claude-castle   # refresh marketplace.json from GitHub
+/plugin update claude-castle               # install the latest plugin version
+```
+
+`marketplace update` is only needed when the marketplace metadata itself changes (new plugin entry, source URL change). For routine plugin upgrades, `plugin update` is enough.
+
+For manual installs: re-run the `cp -r` commands in Option B after `git pull`ing this repo.
+
 ### 3. Configure your repo
 
 In any repo you want to use the pipeline:
